@@ -1,0 +1,68 @@
+header,footer,article,aside,section,main,nav,figure{
+                           display:block;
+                        }
+html{
+    background-color: white;
+}
+*{
+   margin:0;
+   padding:0;    
+}
+body{
+     font-family: Verdana,Arial,Helvetica,sans-serif;
+     font-size:100%;
+     font-weight:normal;
+     font-style:normal;
+     font-variant:normal;
+     width:600px;
+     height:850px;
+     margin:0px auto;
+     border: 3px  solid #931420;
+     background-color: #fffded;
+}
+header {
+    border-bottom:3px solid #931420;
+}
+header img{
+          float:left;
+          width:70px;
+}
+main{
+    clear:left;
+}
+h2,p{
+          margin-left:24px;
+          margin-right:10px;
+}
+blockquote{
+    margin-left:35px;
+    margin-right:30px;
+}
+
+ul{
+  margin-left:44px;
+     
+}
+main h2,main p,main blockquote{
+     padding-top:10px;
+     padding-bottom: 10px;
+}
+#first{
+   
+    border:3px solid #931420;
+    border-radius:10px 10px 10px 10px;
+    box-shadow: 4px 4px 4px 4px black;
+    
+}
+footer{
+     padding-top:20px;
+     padding-bottom:10px;
+     text-align:center;
+    border-top:3px  solid #931420;
+    color: white;
+    background-color:#931420;
+    background-image:url("eire75.jpg"); 
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-attachment:scroll;
+}
