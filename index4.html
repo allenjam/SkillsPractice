@@ -1,47 +1,68 @@
-<!DOCTYPE html>
-   <html  lang="en">
-      <head>
-           <meta  charset ="UTF-8">
-           <meta  name="description" content="guest  speakers">
-           <meta  name="keywords"    content="Toobin, Sorkin,Chua">
-           <title>San  Joaquin  Valley  Town Hall</title>
-           <link  rel="shortcut icon" href="favicon.ico">
-           <link  rel="stylesheet" href="index4.css">
-           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      </head>
-      <body>
-        <header>
-           <img  src="town_hall_logo.gif" alt="The   logo">
-           <h1>San  Joaquin Valley Town Hall</h1>
-           <p>Celebrating our 75<sup>th</sup> Year</p>
-        </header>
-        <main>
-             <h2>Our Mission</h2>
-             <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an 
-			   all-volunteer board of directors. Our mission is to bring nationally and 
-			   internationally renowned, thought-provoking speakers who inform, educate, 
-			   and entertain our audience! As one or our members told us:</p>
-			<blockquote>&ldquo;Each year I give a ticket package to each of our family members. 
-			I think of it as the gift of knowledge...and that is priceless.&rdquo;</blockquote>
-            <h2>Our Ticket Packages</h2>
-			<ul>
-				<li>Season Package: $95</li>
-				<li>Patron Package: $200</li>
-				<li>Single Speaker: $25</li>
-			</ul> 
-             <h2  id="first">This season's guest speakers</h2>
-        </main>
-        <section>
-              <p>October<br><a  href="#">Jeffrey  Toobin</a><br>
-               <img src="toobin75.jpg" alt="The toobin photo"></p>
-               <p>November<br><a  href="#"> Andrew Ross Sorkin</a><br>
-               <img src="Sorkin75.jpg" alt="The Sorkin photo"></p>
-               <p>January<br><a  href="#"> Amy Chua</a><br>
-               <img src="Chua75.jpg" alt="The chua photo"></p>
-        </section>
-        
-        <footer>
-           <p>&copy;2015,San Joaquin ValleyTown,  Fresno,CA 93755 </p>
-        </footer>
-      </body>
-</html>  
+header,footer,article,aside,section,main,nav,figure{
+                           display:block;
+                        }
+html{
+    background-color: white;
+}
+*{
+   margin:0;
+   padding:0;    
+}
+body{
+     font-family: Verdana,Arial,Helvetica,sans-serif;
+     font-size:100%;
+     font-weight:normal;
+     font-style:normal;
+     font-variant:normal;
+     width:600px;
+     height:850px;
+     margin:0px auto;
+     border: 3px  solid #931420;
+     background-color: #fffded;
+}
+header {
+    border-bottom:3px solid #931420;
+}
+header img{
+          float:left;
+          width:70px;
+}
+main{
+    clear:left;
+}
+h2,p{
+          margin-left:24px;
+          margin-right:10px;
+}
+blockquote{
+    margin-left:35px;
+    margin-right:30px;
+}
+
+ul{
+  margin-left:44px;
+     
+}
+main h2,main p,main blockquote{
+     padding-top:10px;
+     padding-bottom: 10px;
+}
+#first{
+   
+    border:3px solid #931420;
+    border-radius:10px 10px 10px 10px;
+    box-shadow: 4px 4px 4px 4px black;
+    
+}
+footer{
+     padding-top:20px;
+     padding-bottom:10px;
+     text-align:center;
+    border-top:3px  solid #931420;
+    color: white;
+    background-color:#931420;
+    background-image:url("eire75.jpg"); 
+    background-repeat:no-repeat;
+    background-position:right top;
+    background-attachment:scroll;
+}
