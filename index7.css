@@ -75,8 +75,7 @@ article  img{
            margin: 0 2em 8em;
 }
 #space{
-    text-indent:5em
-        ;
+   
     padding-top:1em;
     padding-bottom: 1em;
 }
@@ -84,4 +83,53 @@ footer{
      background-color:red;
      color:white;
      border-top:1px solid black;
+}
+#nav_menu{
+      clear: left;
+      list-style-type: none;
+      margin: 0em;
+      padding-left:0em;
+      position:relative;
+}
+#nav_menu ul{
+       position:absolute;
+       list-style-type :none;
+       display: none;
+       top:40px;
+       
+}
+ #nav_menu ul li{
+       float:none;
+}
+ #nav_menu  li:hover >  ul{
+               display:block;
+}/**
+#nav_menu > ul::after{
+    content:" ";
+    display: block;
+    clear:both;
+}**/
+    
+
+       
+ #nav_menu li{
+     float:left;
+     
+    
+}
+  #nav_menu li a{
+        display:block;
+       text-align: center;
+       width: 160px;
+       text-decoration: none;
+       padding: 1em 0em;
+       background-color: #800000;
+       color:white;
+       font-weight:bold;
+}
+ li.current{
+       color:yellow; 
+}
+ #opening{
+      padding-top: 1em;
 }
